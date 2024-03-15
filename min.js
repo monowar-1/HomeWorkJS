@@ -1,4 +1,4 @@
-const A = [10, 1001, 'AB', 150, 'AC', 'AD', 30, 120, 'AF'];
+const A = [50,107, 'jack', 83, 'killer', 'son', true];
 
 const Strings = A.filter(item => typeof item === 'string');
 
