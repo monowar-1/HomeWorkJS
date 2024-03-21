@@ -45,3 +45,13 @@ for (var i = 0; i < Numbers.length; i++) {
   }
 
 console.log("new-5:" , Strings.map(item => item.slice(0, -1) + '`s'));
+
+
+
+Add to cart
+
+let val =0;
+function sum(){
+    val=val+1;
+    document.querySelector('.ko').innerHTML=val;
+}
